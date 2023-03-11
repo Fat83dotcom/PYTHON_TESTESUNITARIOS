@@ -1,14 +1,14 @@
-import unittest 
+import unittest
 from assertions import soma, subtracao
 
 
 class TesteFuncoes(unittest.TestCase):
     def test_soma_5_e_5_retorna_10(self):
         self.assertEqual(soma(5, 5), 10)
-    
+
     def test_subtracao_10_E_10_retorna_0(self):
         self.assertEqual(subtracao(10, 10), 0)
-    
+
     def test_varias_entradas_soma(self):
         x_y_saida = (
             (-1, -1, -2),
