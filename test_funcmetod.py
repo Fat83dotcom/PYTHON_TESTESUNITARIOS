@@ -38,4 +38,5 @@ class TesteFuncoes(unittest.TestCase):
                 self.assertEqual(subtracao(x, y), saida)
 
 
-unittest.main(verbosity=2)
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
